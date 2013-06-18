@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<script src="lison.js"></script>
+</head
+
+<body>
+<script>
+
+
+
+var idata = "%Ov1#sv2#sv3#Ov31#sv32#s#ov4#A%s#a%o\cHola\cMundo\cv3 Hola\cv3 Mundo\c5\citem 1\citem 2\citem 3\citem 4\citem 5\c";
+
+// idata="%Ov1#sv2#sv3#Ov31#sv32#s#o%o\cHola\cMundo\cv3 Hola\cv3 Mundo\c";
+
+idata="LiSON1|<Dk#sv<oId#iName#sAddress#sAdditionalData<a<OField1#sField2#sField3#s/O/a/o/D|5|1||3121|2|3|5||4|0|||4|0|||4|0|||4|0|||4|0||5||1827|2|3|5||4|0|||4|0|||4|0|||4|0|||4|0||6||566|2|3|5||4|0|||4|0|||4|0|||4|0|||4|0||7||1350|2|3|5||4|0|||4|0|||4|0|||4|0|||4|0||8||2465|2|3|5||4|0|||4|0|||4|0|||4|0|||4|0||Key1|This is a small string|Nothing is more difficult, and therefore more precious, than to be able to decide|this is an example of what works very well with smaz|Key2|Key3|Key4|Key5|8";
+
+var o = LISON.deserialize (idata);
+
+console.log (o);
+
+var odata = JSON.stringify (o);
+
+</script>
+
+
+</body>
+</html>
